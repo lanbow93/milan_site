@@ -13,13 +13,13 @@ export default function Home(props){
                 <h2>Skillset</h2>
                 <div className="skill-container">
                     <span className="UI-section">
-                        <h3>Application Skilla</h3>
+                        <h3>Applications</h3>
                         <p>Adobe Photoshop</p>
                         <p>FIGMA</p>
                         <p>ETC</p>
                     </span>
                     <span className="Frontend-section">
-                        <h3>Person Skills</h3>
+                        <h3>Personal</h3>
                         <p>Creative</p>
                         <p>Attention to Detail</p>
                         <p>Excellent Time Management</p>
