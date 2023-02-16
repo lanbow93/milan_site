@@ -6,43 +6,37 @@ export default function Home(props){
     return(
         <main className="container">
             <section className="about animate__animated animate__fadeIn">
-                {/* <h2>{about.name}</h2>
-                <h3>{about.email}</h3> */}
                 <p>{about.bio}</p>
             </section>
 
             <section className="skills">
-                <h2>Technical Skills</h2>
+                <h2>Skillset</h2>
                 <div className="skill-container">
                     <span className="UI-section">
-                        <h3>UX/UI DESIGN</h3>
-                        <p>APP DESIGN</p>
+                        <h3>Application Skilla</h3>
+                        <p>Adobe Photoshop</p>
                         <p>FIGMA</p>
-                        <p>WIREFRAME</p>
-                        <p>GOOGLE FONTS</p>
-                        <p>LOW/HIGH FIDELITY MOCKUPS</p>
+                        <p>ETC</p>
                     </span>
                     <span className="Frontend-section">
-                        <h3>FRONTEND</h3>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>SASS</p>
-                        <p>JS</p>
-                        <p>REACT</p>
-                        <p>NODEJS</p>
+                        <h3>Person Skills</h3>
+                        <p>Creative</p>
+                        <p>Attention to Detail</p>
+                        <p>Excellent Time Management</p>
+                        <p>ETC</p>
                     </span>
                     <span className="other-section">
                         <h3>OTHER</h3>
-                        <p>D&D</p>
-                        <p>EVERQUEST</p>
-                        <p>MINECRAFT</p>
-                        <p>BLACKSMITHING</p>
+                        <p>Example 1</p>
+                        <p>Example 2</p>
+                        <p>Example 3</p>
+                
                     </span>
                 </div>
             </section>
 
             <section className="project">
-                <h2>Projects</h2>
+                <h2>Examples of Work:</h2>
                 <div className="project-container">
                     {projects.map((project) => (
                         <div className="project-list" id={project.projectid}>

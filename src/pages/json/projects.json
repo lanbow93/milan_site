@@ -1,26 +1,10 @@
 [
   {
-    "name": "Pokedex",
+    "name": "XYZ Logo",
     "live": "https://brandonhaupt.github.io/GA-Project-1/",
     "git": "https://github.com/BrandonHaupt/GA-Project-1",
-    "image": "https://i.imgur.com/BvMwan5.png",
-    "languagesUsed":"HTML, CSS, and JavaScript",
+    "image": "https://dynamic.brandcrowd.com/asset/logo/95245926-5689-481e-bf28-c42a48171669/logo-search-grid-1x?logoTemplateVersion=1&v=637284870712970000",
+    "languagesUsed":"Created for",
     "projectid": "project-1"
-  },
-  {
-    "name": "Cat-alog",
-    "live": "https://cat-alog.onrender.com",
-    "git": "https://github.com/BrandonHaupt/GA-Project-2",
-    "image": "https://i.imgur.com/vl5zKvB.png",
-    "languagesUsed":"HTML, CSS, JavaScript, jQuery, EJS, ExpressJS, Mongoose, Node, and Bootstrap",
-    "projectid": "project-2"
-  },
-  {
-    "name": "Road Trip Buddy",
-    "live": "https://project-3-frontend-uxxk.onrender.com/",
-    "git": "https://github.com/ruhamayared/Road-Trip-Buddy-frontend",
-    "image": "https://i.imgur.com/3SScFkz.png",
-    "languagesUsed":"HTML, CSS/SCSS, JavaScript, React, Mongoose, and MongoDB",
-    "projectid": "project-3"
   }
 ]

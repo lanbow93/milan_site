@@ -8,21 +8,21 @@ function Footer(props) {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs
-        .sendForm(
-          "service_83y28jn",
-          "contact-form",
-          form.current,
-          "UkQaTRyXQd1QTuR_-"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+      // emailjs
+      //   .sendForm(
+      //     "service_83y28jn",
+      //     "contact-form",
+      //     form.current,
+      //     "UkQaTRyXQd1QTuR_-"
+      //   )
+      //   .then(
+      //     (result) => {
+      //       console.log(result.text);
+      //     },
+      //     (error) => {
+      //       console.log(error.text);
+      //     }
+      //   );
   
       e.target.reset();
     };
@@ -32,8 +32,7 @@ function Footer(props) {
         <section className='footer-container'>
           <section className='HireMePlz'>
             <h3>Hire Me!</h3>
-            <p className='my-email'>Haupt.brandon@gmail.com</p>
-            <a href='https://docs.google.com/document/d/1dMG3dYKZH-3zKhAEL0s9qsO8B0ixIdVg7qP-qZ3yKIo/edit?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
+            <p className='my-email'>Milan.Choudhuryn@gmail.com</p>
           </section>
 
           <span className='verticle-line'></span>
